@@ -342,7 +342,7 @@ body._a3wf {
     width: var(--nav-narrow-width);
 }
 .xh8yej3 {
-    width: 100%;
+    width: 80%;
 }
 .x1to3lk4 {
     height: 92px;
@@ -476,15 +476,6 @@ img {
     border-color: initial;
     border-image: initial;
 }
-body._a3wf {
-    background: rgb(var(--ig-primary-background));
-    color: rgb(var(--ig-primary-text));
-    font-family: var(--font-family-system);
-    font-size: var(--system-14-font-size);
-    line-height: var(--system-14-line-height);
-    margin: 0;
-    overflow-y: visible;
-}
 body, button, input, textarea, button, input, textarea {
     color: rgb(var(--ig-primary-text));
     font-family: var(--font-family-system);
@@ -503,6 +494,30 @@ body {
     margin: 0;
     padding: 0;
     unicode-bidi: embed;
+}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
 }
 ._abcj {
     position: relative;
@@ -555,6 +570,15 @@ body {
 }
 ._aap6 {
     position: relative;
+}
+._aap0 {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 ._acao, ._acao:visited, a._acao, a._acao:visited {
     color: rgb(var(--ig-primary-button));
@@ -687,7 +711,56 @@ body {
     border-color: initial;
     border-image: initial;
     font: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
-    margin: 0px auto;
+    margin: 0 142px;
+    padding: 0px;
+}
+._aauo {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+    overflow-y: hidden;
+    position: relative;
+    outline: none;
+}
+._afxw {
+    right: 0px;
+}
+._aahm {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+._aahj {
+    padding: 0px;
+}
+._afxv, ._afxw {
+    justify-self: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding: 16px 8px;
+}
+._aap1 {
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    vertical-align: baseline;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    font: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
+    margin: 0px;
     padding: 0px;
 }
 ._aam5 {
@@ -703,6 +776,7 @@ body {
 ._aam2 {
     float: left;
     margin-right: var(--feed-sidebar-padding);
+    /* margin-right: 32px; */
     max-width: 470px;
     width: 100%;
 }
@@ -1161,6 +1235,24 @@ body {
     padding-bottom: 6px;
     padding-top: 6px;
 }
+._aao_ {
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    vertical-align: baseline;
+    width: 100%;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    font: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
+    margin: 0px;
+    padding: 0px;
+}
 ._aaoe {
     color: rgb(var(--ig-secondary-text));
     flex-shrink: 0;
@@ -1265,12 +1357,22 @@ body {
     margin: 0px 0px 3px;
     padding: 0px;
 }
+._acay {
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    display: block;
-    list-style-type: disc;
+    /* display: block; */
+    /* list-style-type: disc; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
