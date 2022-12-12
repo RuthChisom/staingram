@@ -348,7 +348,7 @@ body._a3wf {
     height: 92px;
 }
 .x5yr21d {
-    height: 100%;
+    width: 100%;
 }
 .x87ps6o {
     user-select: none;
@@ -1459,7 +1459,7 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    /* padding-inline-start: 40px; */
 }
 
 ._ab8b ._ab8f, ._ab8b ._ab8g, ._ab8b ._ab8i {
@@ -1516,4 +1516,7 @@ li {
     font: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
     margin: 0px;
     padding: 0px;
+}
+._acaz {
+    padding: 0px 10px 0px 0px;
 }
